@@ -1,0 +1,12 @@
+/*
+Theme Name: Muge's Amazing Theme
+Description: Child Theme based on twentysixteen;
+Author: Analytical Engine Interactive Inc.;
+Version: 1.0;
+Template: twentysixteen
+*/
+ @import url(../twentysixteen/style.css')
+
+ 	body {
+ 		background-color: #F44336;
+ 	}
