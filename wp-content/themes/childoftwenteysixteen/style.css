@@ -5,8 +5,16 @@ Author: Analytical Engine Interactive Inc.;
 Version: 1.0;
 Template: twentysixteen
 */
- @import url(../twentysixteen/style.css')
+ @import url('../twentysixteen/style.css');
+ @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+ /*font-family: 'Poiret One', cursive;*/
 
  	body {
- 		background-color: #F44336;
+ 		background-color: pink;
+ 	}
+
+ 	.entry-title {
+ 		font-family: 'Poiret One', cursive;
+ 		color: green;
  	}
