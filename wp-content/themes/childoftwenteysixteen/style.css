@@ -6,15 +6,38 @@ Version: 1.0;
 Template: twentysixteen
 */
  @import url('../twentysixteen/style.css');
- @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+ @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+ @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
- /*font-family: 'Poiret One', cursive;*/
+
+ /*font-family: 'Indie Flower', cursive;*/
 
  	body {
- 		background-color: pink;
+ 		
+ 		background-color: grey;
  	}
 
  	.entry-title {
- 		font-family: 'Poiret One', cursive;
- 		color: green;
+ 		font-family: 'Indie Flower', cursive;
+		color: purple;
+		font-size: 48px;
+ 	}
+
+ 	.entry-title a:hover, .entry-title a:focus {
+ 		color:pink;
+ 	}
+
+ 	.site-title {
+ 		font-family: 'Quicksand', sans-serif;
+ 		color: purple;
+
+ 	}
+ 	
+ 	.site-title a:hover, .site-title a:focus {
+ 		color: grey;
+ 	}
+
+ 	.entry-content {
+ 		font-family: 'Indie Flower', cursive;
+
  	}
