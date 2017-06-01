@@ -14,7 +14,7 @@ Template: twentysixteen
 
  	body {
  		
- 		background-color: grey;
+ 		background-color: pink;
  	}
 
  	.entry-title {
@@ -27,6 +27,10 @@ Template: twentysixteen
  		color:pink;
  	}
 
+ 	#masthead{
+ 		background-color: pink;
+ 	}
+
  	.site-title {
  		font-family: 'Quicksand', sans-serif;
  		color: purple;
@@ -37,7 +41,13 @@ Template: twentysixteen
  		color: grey;
  	}
 
+ 	/*attempt to change all the body copy to sans serif*/
+
  	.entry-content {
  		font-family: 'Indie Flower', cursive;
 
+ 	}
+
+ 	.widget {
+ 		border-top: 1px solid #1a1a1a;
  	}
