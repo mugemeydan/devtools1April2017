@@ -13,7 +13,7 @@
 
 if (is_front_page() ):
 	get_header( 'home');
-else
+else:
 	get_header();
 endif; 
 ?>

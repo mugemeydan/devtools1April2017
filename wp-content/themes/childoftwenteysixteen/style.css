@@ -51,3 +51,13 @@ Template: twentysixteen
  	.widget {
  		border-top: 1px solid #1a1a1a;
  	}
+ 	.sticky-post::before {
+ 		content: "Important Information";
+ 		display: block;
+ 		font-family: 'Indie Flower', cursive;
+ 		text-align: center;
+ 		color: #ffffff;
+ 		background-color: #696969;
+ 		font-size: 80%;
+ 		padding: 1em;
+ 	}
