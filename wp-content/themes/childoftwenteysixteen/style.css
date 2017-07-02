@@ -14,7 +14,7 @@ Template: twentysixteen
 
  	body {
  		
- 		background-color: pink;
+ 		background-color: yellow;
  	}
 
  	.entry-title {
@@ -28,7 +28,10 @@ Template: twentysixteen
  	}
 
  	#masthead{
- 		background-color: pink;
+ 		background-color: grey;
+ 	}
+ 	.site-branding .site-title a {
+ 		color: white;
  	}
 
  	.site-title {
@@ -38,7 +41,7 @@ Template: twentysixteen
  	}
  	
  	.site-title a:hover, .site-title a:focus {
- 		color: grey;
+ 		color: white;
  	}
 
  	/*attempt to change all the body copy to sans serif*/
